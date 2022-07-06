@@ -40,7 +40,7 @@
     outline: none;
     position: relative;
 }
-/* Efeito na área de login registro (icons */
+/* Efeito na área de login e registro (icons */
 #btn{
     top: 0;
     left: 0;
@@ -64,7 +64,7 @@
     cursor: pointer;
     border-radius: 50%;
 }
-/* Posição do campo de input (Usuário e senha) */
+/* Posicionamento, tamanho e estilização do campo de input (Usuário e senha) */
 .input-group{
     top: 170px;
     position: absolute;
