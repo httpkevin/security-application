@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Estiliza o layout incluindo a img (banner) */
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+/* Inclui e estiliza um quadrado (form) */
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+}
+/* Estiliza o fundo da área de login e registro */
+.button-box{
+    width: 220px;
+    height: 35px auto;
+    position: relative;
+    top: 25px; left: 77px; /* Manualmente posicionado */
+    box-shadow: 0 0 20px 20px #ff61241f;
+    border-radius: 30px;
+}
+/* Estiliza o área de login e registro */
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+/* Efeito na área de login registro */
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+/* Estiliza as três imagens adicionadas fb, gp, tw */
+.social-icons{
+    margin: 30px auto;
+    text-align: center;
+}
+.social-icons img{
+    width: 30px;
+}
+
