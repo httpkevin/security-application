@@ -1,3 +1,4 @@
+/*Arquivo de login*/
 *{
     margin: 0;
     padding: 0;
@@ -20,6 +21,7 @@
     margin: 6% auto;
     background: #fff;
     padding: 5px;
+    border-radius: 10%;
     overflow: hidden;
 }
 /* Estiliza o fundo da área de login e registro (icons) */
@@ -27,7 +29,7 @@
     width: 220px;
     height: 35px auto;
     position: relative;
-    top: 50px; left: 77px; /* Manualmente posicionado */
+    top: 58px; left: 77px; /* Manualmente posicionado */
     box-shadow: 0 0 20px 20px #ff61241f;
     border-radius: 30px;
 }
@@ -53,7 +55,7 @@
 }
 /* Posiciona as imgs adicionadas fb, gp, tw */
 .social-icons{
-    margin: 70px auto;
+    margin: 90px auto;
     text-align: center;
 }
 /* Estiliza as ims fb, gp, tw */
@@ -66,7 +68,7 @@
 }
 /* Posicionamento, tamanho e estilização do campo de input (Usuário e senha) */
 .input-group{
-    top: 170px;
+    top: 200px;
     position: absolute;
     width: 280px;
     transition: .5s;
@@ -83,6 +85,7 @@
     background: transparent;
 }
 .submit-btn{
+    padding: 10px 30px;
     width: 85%;
     height: 10px 30px;
     cursor: pointer;
@@ -94,7 +97,7 @@
     border-radius: 30px;
 }
 .chech-box{
-    margin: 30px 10px 30px 0;
+    margin: 40px 10px 30px 0;
 }
 .span{
     color: #777;
@@ -108,4 +111,4 @@
 #register{
     left: 450px;
 }
-
+/*Arquivo index - Home page*/
