@@ -1,4 +1,4 @@
-//
+// Funções para tratar arquivo de login - login.html
 let x, y, z;
 
 x = document.getElementById("login");
@@ -16,3 +16,6 @@ function login() {
     y.style.left = "450px";
     z.style.left = "0px";
 }
+// Funções para tratar arquivo home page - index.html
+
+
