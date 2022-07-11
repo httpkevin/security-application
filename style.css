@@ -1,4 +1,4 @@
-/*Arquivo login - login.html*/
+/*Arquivo home page - index.html*/
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
 * {
 	padding: 0;
@@ -201,7 +201,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-bg.png);
+	background-image: url(./img/bannerhomepage.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -702,6 +702,8 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
+/*Arquivo login - login.html*/
 *{
     margin: 0;
     padding: 0;
