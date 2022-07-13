@@ -1,4 +1,4 @@
-/*Arquivo home page - index.html*/
+/* Arquivo home page - index.html */
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
 * {
 	padding: 0;
@@ -72,7 +72,7 @@ p {
 	color: crimson;
 }
 
-/* Header section */
+/* Sessão Cabeçalho */
 #header {
 	position: fixed;
 	z-index: 1000;
@@ -197,11 +197,11 @@ p {
 #header .hamburger.active .bar::after {
 	top: 0;
 }
-/* End Header section */
+/* Fim da Sessão Cabeçalho */
 
-/* Hero Section */
+/* Sessão Hero */
 #hero {
-	background-image: url(./img/bannerhomepage.jpg);
+	background-image: url(./img/banner2.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -263,9 +263,9 @@ p {
 	animation-delay: 2.5s;
 }
 
-/* End Hero Section */
+/* Fim da Sessão Hero */
 
-/* Services Section */
+/* Sessão Serviços */
 #services .services {
 	flex-direction: column;
 	text-align: center;
@@ -325,9 +325,9 @@ p {
 	color: white;
 	text-align: left;
 }
-/* End Services Section */
+/* Fim da Sessão Serviços */
 
-/* Projects section */
+/* Sessão Projetos */
 #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
@@ -398,9 +398,9 @@ p {
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
 }
-/* End Projects section */
+/* Fim da Sessão Projetos */
 
-/* About Section */
+/* Sessão Sobre nós (About) */
 #about .about {
 	flex-direction: column-reverse;
 	text-align: center;
@@ -446,9 +446,9 @@ p {
 	border: 7px solid crimson;
 	z-index: -1;
 }
-/* End About Section */
+/* Fim da Sessão Sobre nós (About) */
 
-/* contact Section */
+/* Sessão Contato */
 #contact .contact {
 	flex-direction: column;
 	max-width: 1200px;
@@ -491,9 +491,9 @@ p {
 	line-height: 2rem;
 	font-weight: 500;
 }
-/*End contact Section */
+/* Fim da Sessãoo Contato */
 
-/* Footer */
+/* Rodapé (footer) */
 #footer {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
@@ -531,9 +531,9 @@ p {
 	color: white;
 	font-size: 1.3rem;
 }
-/* End Footer */
+/* Fim Rodapé (footer) */
 
-/* Keyframes */
+/* Keyframes (Animação) */
 @keyframes hamburger_puls {
 	0% {
 		opacity: 1;
@@ -565,9 +565,9 @@ p {
 		font-weight: 500;
 	}
 }
-/* End Keyframes */
+/* Fim do Keyframes (Animação) */
 
-/* Media Query For Tablet */
+/* Media Query For Tablet (Consulta de midia para table) */
 @media only screen and (min-width: 768px) {
 	.cta {
 		font-size: 2.5rem;
@@ -577,20 +577,20 @@ p {
 		font-size: 6rem;
 	}
 
-	/* Hero */
+	/* Sessão Hero */
 	#hero h1 {
 		font-size: 7rem;
 	}
-	/* End Hero */
+	/* Fim da Sesssão Hero */
 
-	/* Services Section */
+	/* Sessão Serviços */
 	#services .service-bottom .service-item {
 		flex-basis: 45%;
 		margin: 2.5%;
 	}
-	/* End Services Section */
+	/* Fim da Sessão Serviços */
 
-	/* Project */
+	/* Projetos */
 	#projects .project-item {
 		flex-direction: row;
 	}
@@ -609,9 +609,9 @@ p {
 	#projects .all-projects .project-img {
 		height: 100%;
 	}
-	/* End Project */
+	/* Fim do Projetos */
 
-	/* About */
+	/* Sobre nós (About) */
 	#about .about {
 		flex-direction: row;
 	}
@@ -634,9 +634,9 @@ p {
 	#about .col-right h1 {
 		text-align: left;
 	}
-	/* End About */
+	/* Fim do Sobre nós (About) */
 
-	/* contact  */
+	/* Contato */
 	#contact .contact {
 		flex-direction: column;
 		padding: 100px 0;
@@ -668,13 +668,13 @@ p {
 		text-align: left;
 		padding-left: 20px;
 	}
-	/* End contact  */
+	/* Fim do Contato */
 }
-/* End Media Query For Tablet */
+/* Fim do Consulta de midia para table (Media Query For Tablet) */
 
-/* Media Query For Desktop */
+/* Media Query For Desktop (Consulta de midia para desktop) */
 @media only screen and (min-width: 1200px) {
-	/* header */
+	/* Cabeçalho */
 	#header .hamburger {
 		display: none;
 	}
@@ -694,14 +694,14 @@ p {
 	#header .nav-list ul a:after {
 		display: none;
 	}
-	/* End header */
+	/* Fim do Cabeçalho */
 
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
 }
-/* End  Media Query For Desktop */
+/* Fim do Consulta midia para desktop (End  Media Query For Desktop) */
 
 /*Arquivo login - login.html*/
 *{
@@ -713,7 +713,7 @@ p {
 .hero2{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(/img/banner.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(/img/banner2.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;
