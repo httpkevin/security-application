@@ -1,4 +1,4 @@
-// Funções para tratar arquivo de login - login.html
+// Funções para tratar login - login.html
 let x, y, z;
 
 x = document.getElementById("login");
@@ -16,6 +16,27 @@ function login() {
     y.style.left = "450px";
     z.style.left = "0px";
 }
+
+// Função de mostrar e ocultar senha por checkbox (Login)
+function showpassword() {
+    let type = document.getElementById("password-login");
+    if (type.type == "password") {
+        type.type = "text";
+    } else {
+        type.type = "password"
+    }
+}
+
+// Função de mostrar e ocultar senha por checkbox (Register)
+function showpassword2() {
+    let type = document.getElementById("password-register");
+    if (type.type == "password") {
+        type.type = "text";
+    } else {
+        type.type = "password"
+    }
+}
+
 // Funções para tratar arquivo home page - index.html
 const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
 const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
